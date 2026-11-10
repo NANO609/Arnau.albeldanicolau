@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio – Arnau ALBELDA NICOLAU</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome (icônes) -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icons/6.6.6/css/flag-icons.min.css">
+
+  <link rel="stylesheet" href="style1.css" />
+</head>
+<body>
+  <header class="site-header" id="accueil" role="banner">
+    <nav class="site-nav" aria-label="Navigation principale">
+      <a class="brand" href="#accueil" aria-label="Retour à l’accueil">Arnau ALBELDA NICOLAU</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="menu"><span class="sr-only">Ouvrir le menu</span><i class="fa-solid fa-bars"></i></button>
+      <ul id="menu" class="nav-links">
+        <li><a href="#moi">À propos</a></li>
+        <li><a href="#formation">Formations</a></li>
+        <li><a href="#exp">Expériences</a></li>
+        <li><a href="#comp">Compétences</a></li>
+        <li><a href="#projets">Projets</a></li>
+        <li><a href="#divers">Divers</a></li>
+        <li><a href="#cv">CV</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero container">
+      <div class="hero-text">
+        <h1>Arnau ALBELDA NICOLAU</h1>
+        <p>Étudiant en 2<sup>e</sup> année BUT Réseaux & Télécommunications</p>
+        <div class="social">
+          <a href="https://www.linkedin.com/in/arnau-albelda-nicolau-83994224b/" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <img src="yo1.jpg" alt="Photo de profil d’Arnau" />
+      </div>
+    </div>
+  </header>
+
+  <main id="contenu">
+    <!-- À propos -->
+    <section class="section" id="moi" aria-labelledby="titre-moi">
+      <div class="container">
+        <h2 id="titre-moi">À propos de moi</h2>
+        <p>
+          Je suis Arnau ALBELDA NICOLAU, étudiant en 2<sup>e</sup> année de BUT Réseaux et Télécommunications à Aubière (63).
+          J’ai obtenu un baccalauréat général (spécialités Mathématiques & Physique‑Chimie) et suivi NSI en première.
+          Passionné par la cybersécurité et la programmation, je recherche un stage de 10 semaines à partir du <strong>5 avril 2027</strong>.
+        </p>
+        <p>
+          Calme, persévérant et avec un fort esprit d’équipe, j’ai développé ces qualités au travers d’expériences
+          professionnelles et sportives.
+        </p>
+      </div>
+    </section>
+
+    <!-- Formations -->
+    <section class="section" id="formation" aria-labelledby="titre-formation">
+      <div class="container">
+        <h2 id="titre-formation">Formations</h2>
+        <div class="grid cards">
+          <article class="card">
+            <img src="IUT.png" alt="Logo de l'IUT d’Aubière" />
+            <div class="card-body">
+              <h3>BUT Réseaux & Télécommunications</h3>
+              <p><strong>Début :</strong> Septembre 2024 – IUT d’Aubière (63). </p>
+              <details class="more">
+                <summary>Voir plus de détails</summary>          
+                <p><strong>Objectif :</strong> Acquérir les compétences nécessaires en réseaux, télécommunications, cybersécurité et systèmes numériques.</p>
+                <p><strong>Contexte :</strong> Formation en 3 ans mêlant cours, TP, projets en binôme/équipe.</p>
+                <p><strong>Travail réalisé :</strong></p>
+                <ul>
+                  <li>Configuration de VLAN, adressage IP, routage de base</li>
+                  <li>Analyse de paquets (Wireshark), maquettes Packet Tracer</li>
+                  <li>Points d’accès Wi‑Fi, bases de VoIP (Asterisk/SIP)</li>
+                  <li>Scripts et petits projets (Python, Bash, HTML/CSS)</li>
+                </ul>
+                <p><strong>Résultat :</strong> Bases solides, autonomie et rigueur, collaboration efficace sur des architectures réseau réelles/simulées.</p>
+              </details>
+            </div>
+          </article>
+          <article class="card">
+            <img src="lycee.jpeg" alt="Lycée Dhuoda à Nîmes" />
+            <div class="card-body">
+              <h3>Baccalauréat général</h3>
+              <p><strong>Juin 2024 :</strong> Spécialités Mathématiques et Physique‑Chimie – Lycée Dhuoda, Nîmes (30).</p>
+              <details class="more">
+                <summary>Voir plus de détails</summary>
+                <p><strong>Objectif :</strong> Consolider les bases scientifiques pour poursuivre en filière technologique.</p>
+                <p><strong>Contexte :</strong> Spécialités Mathématiques et Physique‑Chimie, NSI en première.</p>
+                <p><strong>Travail réalisé :</strong></p>
+                <ul>
+                  <li>Résolution de problèmes et travaux expérimentaux</li>
+                  <li>Logique algorithmique (bases de programmation)</li>
+                  <li>Travaux de groupe et préparation d’examens</li>
+                </ul>
+                <p><strong>Résultat :</strong> Esprit analytique, méthode de travail, capacités de raisonnement utiles aux études supérieures.</p>
+              </details>
+            </div>
+          </article>
+          <article class="card">
+            <img src="IFAC.png" alt="Logo IFAC" />
+            <div class="card-body">
+              <h3>BAFA</h3>
+              <p><strong>Mai 2024 :</strong> Brevet d’Aptitude aux Fonctions d’Animateur (IFAC, 30).</p>
+              <details class="more">
+                <summary>Voir plus de détails</summary>     
+                <p><strong>Objectif :</strong> Être qualifié pour encadrer des enfants en accueil de loisirs.</p>
+                <p><strong>Contexte :</strong> Formation en tronc commun, stage pratique, approfondissement.</p>
+                <p><strong>Travail réalisé :</strong></p>
+                <ul>
+                  <li>Conception d’activités ludiques/éducatives</li>
+                  <li>Gestion de groupe et sécurité</li>
+                  <li>Communication avec parents et équipes</li>
+                </ul>
+                <p><strong>Résultat :</strong> Sens des responsabilités, pédagogie, aisance relationnelle.</p>
+              </details>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+<!-- Expériences -->
+    <section class="section" id="exp" aria-labelledby="titre-exp">
+      <div class="container">
+        <h2 id="titre-exp">Expériences Professionnelles</h2>
+        <ul class="timeline">
+          
+          <!-- Bloc regroupé : Animation (2024 - 2026) -->
+          <li>
+            <div class="t-badge">2026</div>
+            <div class="t-card">
+              <h3>Animateur de Centres de Loisirs & Colonie</h3>
+              <p>Missions régulières de 2024 à 2026 (Tarascon, Aubière, Beaucaire, Comps, Thoiras).</p>
+              <div class="thumbs">
+                <img src="tarascon.jpg" alt="Ville de Tarascon" />
+                <img src="francas.png" alt="Logo Les Francas" />
+              </div>
+              <details class="more">
+                <summary>Voir plus de détails</summary>
+                <p><strong>Objectif :</strong> Encadrer et sécuriser des groupes d'enfants lors des vacances scolaires.</p>
+                <p><strong>Contexte :</strong> Travail saisonnier en équipe au sein de plusieurs structures municipales et associatives.</p>
+                <p><strong>Travail réalisé :</strong></p>
+                <ul>
+                  <li>Conception, planification et animation d’activités adaptées aux différents âges.</li>
+                  <li>Surveillance continue, application des règles de sécurité et premiers secours.</li>
+                  <li>Communication quotidienne et reporting auprès des parents et de la direction.</li>
+                </ul>
+                <p><strong>Résultat :</strong> Développement d'une forte réactivité face aux imprévus (gestion d'incidents / troubleshooting humain), excellente communication interpersonnelle et forte capacité d'adaptation à de nouveaux environnements et équipes.</p>
+              </details>
+            </div>
+          </li>
+
+          <!-- Bloc : Festivités Mairie (2026) -->
+          <li>
+            <div class="t-badge">2026</div>
+            <div class="t-card">
+              <h3>Agent au service des festivités</h3>
+              <p>Juillet 2026 - Mairie de Beaucaire (30)</p>
+              <div class="thumbs">
+                <img src="bkr.jpg" alt="Ville de Beaucaire" />
+              </div>
+              <details class="more">
+                <summary>Voir plus de détails</summary>
+                <p><strong>Objectif :</strong> Préparer les infrastructures pour les événements estivaux de la ville.</p>
+                <p><strong>Contexte :</strong> Travail saisonnier nécessitant coordination et respect de plannings serrés.</p>
+                <p><strong>Travail réalisé :</strong></p>
+                <ul>
+                  <li>Mise en place des équipements et infrastructures événementielles.</li>
+                  <li>Soutien logistique direct aux équipes techniques.</li>
+                  <li>Accueil, orientation et assistance au public.</li>
+                </ul>
+                <p><strong>Résultat :</strong> Sens aigu de l'organisation, support logistique efficace, travail en équipe et capacité à tenir des délais stricts de déploiement.</p>
+              </details>
+            </div>
+          </li>
+
+          <!-- Bloc regroupé : Intérim Bio Habitat (2025 - 2026) -->
+          <li>
+            <div class="t-badge">2025</div>
+            <div class="t-card">
+              <h3>Agent de production (Intérim)</h3>
+              <p>Février 2026 & Octobre 2025 – Bio Habitat, Beaucaire (30)</p>
+              <div class="thumbs">
+                <img src="bio.jpeg" alt="Usine Bio Habitat" />
+              </div>
+              <details class="more">
+                <summary>Voir plus de détails</summary>
+                <p><strong>Objectif :</strong> Assurer la production dans les secteurs débit bois et débit bardage.</p>
+                <p><strong>Contexte :</strong> Missions d'intérim en milieu industriel exigeant.</p>
+                <p><strong>Travail réalisé :</strong></p>
+                <ul>
+                  <li>Découpe, assemblage et manutention de matériaux sur chaîne de production.</li>
+                  <li>Maintien de la cadence industrielle en coordination avec les autres postes.</li>
+                  <li>Application rigoureuse des normes de sécurité de l'usine.</li>
+                </ul>
+                <p><strong>Résultat :</strong> Acquisition d'une grande rigueur procédurale (respect strict des protocoles), compréhension des flux opérationnels complexes et endurance dans un environnement normé.</p>
+              </details>
+            </div>
+          </li>
+
+          <!-- Bloc : Stage de 3ème (2021) -->
+          <li>
+            <div class="t-badge">2021</div>
+            <div class="t-card">
+              <h3>Stage d'observation</h3>
+              <p>2021 – Bio Habitat, Beaucaire (30)</p>
+              <div class="thumbs">
+                <img src="bio.jpeg" alt="Usine Bio Habitat" />
+              </div>
+              <details class="more">
+                <summary>Voir plus de détails</summary>
+                <p><strong>Objectif :</strong> Première immersion dans le monde professionnel et industriel.</p>
+                <p><strong>Contexte :</strong> Stage de 3ème avec observation tournante sur plusieurs services.</p>
+                <p><strong>Travail réalisé :</strong></p>
+                <ul>
+                  <li>Observation des processus de conception de plans et gestion des matériaux.</li>
+                  <li>Découverte de l'organisation globale d'une entreprise de production.</li>
+                </ul>
+                <p><strong>Résultat :</strong> Première compréhension des enjeux techniques et logistiques d'une entreprise structurée.</p>
+              </details>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+    </section>
+<!-- Compétences -->
+    <section class="section" id="comp" aria-labelledby="titre-comp">
+      <div class="container">
+        <h2 id="titre-comp">Compétences Techniques & Qualités</h2>
+
+        <div class="skills-grid">
+          <!-- Réseaux -->
+          <div class="skill-card">
+            <div class="skill-header">
+              <i class="fa-solid fa-network-wired"></i>
+              <h3>Réseaux & Sécurité</h3>
+            </div>
+            <div class="skill-bar"><span style="width:80%"></span></div>
+            <p>Conception, configuration et sécurisation d'infrastructures réseau.</p>
+            <div class="badges">
+              <span>Cisco</span><span>Packet Tracer</span><span>Wireshark</span><span>VLAN / Routage</span>
+            </div>
+            <details class="more">
+              <summary>Voir le détail technique</summary>
+              <ul>
+                <li>Mise en place de plans d'adressage IPv4/IPv6 et routage statique/dynamique.</li>
+                <li>Segmentation réseau via VLANs et sécurisation des accès périphériques.</li>
+                <li>Capture et analyse de trafic pour le diagnostic (Wireshark).</li>
+                <li>Déploiement et configuration de points d'accès Wi-Fi.</li>
+              </ul>
+            </details>
+          </div>
+
+          <!-- Programmation -->
+          <div class="skill-card">
+            <div class="skill-header">
+              <i class="fa-solid fa-code"></i>
+              <h3>Développement & Scripting</h3>
+            </div>
+            <div class="skill-bar"><span style="width:75%"></span></div>
+            <p>Création d'applications web et automatisation de tâches système.</p>
+            <div class="badges">
+              <span>Python</span><span>Bash</span><span>PHP / MySQL</span><span>HTML / CSS</span>
+            </div>
+            <details class="more">
+              <summary>Voir le détail technique</summary>
+              <ul>
+                <li>Développement de sites web dynamiques full-stack (PHP, requêtes préparées PDO).</li>
+                <li>Création de scripts d'administration système sous Linux (Bash, Python).</li>
+                <li>Conception, modélisation et gestion de bases de données relationnelles.</li>
+              </ul>
+            </details>
+          </div>
+
+          <!-- Télécoms & VoIP -->
+          <div class="skill-card">
+            <div class="skill-header">
+              <i class="fa-solid fa-phone-volume"></i>
+              <h3>Télécoms & VoIP</h3>
+            </div>
+            <div class="skill-bar"><span style="width:85%"></span></div>
+            <p>Déploiement de téléphonie IP et analyse des signaux de transmission.</p>
+            <div class="badges">
+              <span>Asterisk</span><span>SIP</span><span>Fibre Optique</span><span>Signaux</span>
+            </div>
+            <details class="more">
+              <summary>Voir le détail technique</summary>
+              <ul>
+                <li>Installation et configuration de serveurs d'appels (Asterisk).</li>
+                <li>Attribution de comptes SIP, numérotation et déploiement de téléphones IP.</li>
+                <li>Mesure, interprétation de signaux et compréhension des architectures Fibre/TNT.</li>
+              </ul>
+            </details>
+          </div>
+
+          <!-- Langues -->
+          <div class="skill-card">
+            <div class="skill-header">
+              <i class="fa-solid fa-earth-europe"></i>
+              <h3>Langues</h3>
+            </div>
+            <br>
+            <ul style="list-style: none; line-height: 2.2; margin-left: 5px;">
+              <li><span class="fi fi-es"></span> <strong>Espagnol :</strong> Langue maternelle</li>
+              <li><span class="fi fi-fr"></span> <strong>Français :</strong> Courant (bilingue)</li>
+              <li><span class="fi fi-gb"></span> <strong>Anglais :</strong> Niveau B1 (technique)</li>
+            </ul>
+          </div>
+        </div>
+        
+        <!-- Qualités (Soft skills) repensées -->
+        <h3 style="margin-top: 50px; margin-bottom: 20px; font-size: 1.5rem; text-align: center; color: var(--text);">Qualités Humaines (Soft Skills)</h3>
+        
+        <div class="skills-grid" style="grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));">
+          
+          <div class="skill-card" style="text-align: center; padding: 25px 15px;">
+            <i class="fa-solid fa-brain" style="font-size: 2.5rem; color: var(--accent); margin-bottom: 15px;"></i>
+            <h4 style="margin-bottom: 10px; font-size: 1.1rem;">Gestion du stress</h4>
+            <p style="font-size: 0.95rem; color: var(--muted); margin: 0;">Capacité à conserver mon sang-froid et ma lucidité face aux imprévus ou lors d'incidents techniques.</p>
+          </div>
+
+          <div class="skill-card" style="text-align: center; padding: 25px 15px;">
+            <i class="fa-solid fa-person-hiking" style="font-size: 2.5rem; color: var(--accent); margin-bottom: 15px;"></i>
+            <h4 style="margin-bottom: 10px; font-size: 1.1rem;">Persévérance</h4>
+            <p style="font-size: 0.95rem; color: var(--muted); margin: 0;">Détermination à résoudre des problèmes complexes et à aller au bout des tâches sans baisser les bras.</p>
+          </div>
+
+          <div class="skill-card" style="text-align: center; padding: 25px 15px;">
+            <i class="fa-solid fa-people-group" style="font-size: 2.5rem; color: var(--accent); margin-bottom: 15px;"></i>
+            <h4 style="margin-bottom: 10px; font-size: 1.1rem;">Esprit d'équipe</h4>
+            <p style="font-size: 0.95rem; color: var(--muted); margin: 0;">Facilité à collaborer, communiquer efficacement et mutualiser les connaissances au sein d'un groupe.</p>
+          </div>
+
+          <div class="skill-card" style="text-align: center; padding: 25px 15px;">
+            <i class="fa-solid fa-list-check" style="font-size: 2.5rem; color: var(--accent); margin-bottom: 15px;"></i>
+            <h4 style="margin-bottom: 10px; font-size: 1.1rem;">Rigueur & Autonomie</h4>
+            <p style="font-size: 0.95rem; color: var(--muted); margin: 0;">Capacité à m'organiser efficacement pour mener un projet de sa conception à sa validation.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+   <!-- Projets -->
+    <section class="section" id="projets" aria-labelledby="titre-projets">
+      <div class="container">
+        <h2 id="titre-projets">Projets</h2>
+
+        <article class="card">
+          <div class="card-body">
+            <h3>SAE 2.04 : Projet intégratif</h3>
+            <p>Conception, déploiement et sécurisation de l'infrastructure réseau complète d'une petite entreprise.</p>
+            
+            <details class="more">
+              <summary>Voir le projet en entier</summary>
+              <h4>Objectif</h4>
+              <p>Concevoir, déployer et sécuriser l'infrastructure réseau complète d'une petite entreprise (services Finance, RH, Technique), incluant l'accès Internet, l'annuaire centralisé, la téléphonie IP et un serveur web de supervision.</p>
+
+              <h4>Contexte</h4>
+              <p>Projet intégratif réalisé en équipe (4-5 étudiants) combinant administration réseau, administration système, téléphonie VoIP et cybersécurité sur du matériel physique dédié (routeurs, switchs, pare-feu, bornes Wi-Fi).</p>
+
+              <h4>Travail réalisé</h4>
+              <ul>
+                <li><strong>Architecture réseau :</strong> Conception de la topologie, segmentation par VLANs (Finance, RH, Technique), routage inter-VLAN, configuration du Wi-Fi et sécurisation du routeur de périphérie.</li>
+                <li><strong>Services systèmes & VoIP :</strong> Déploiement d'un serveur Windows Server avec Active Directory, d'un serveur Linux et d'un serveur de téléphonie IP.</li>
+                <li><strong>Cybersécurité & Hardening :</strong> Protection contre le DHCP Spoofing (rogues) et le DHCP Starvation ; centralisation et analyse des logs pour détecter les attaques par force brute (mots de passe erronés répétés).</li>
+                <li><strong>Développement Web & Outillage :</strong> Création d'un site Web (PHP/HTML/CSS) intégrant une zone d'authentification, le lancement de scripts de gestion avec affichage des résultats, une présentation technique des attaques/contre-mesures et du contenu en anglais.</li>
+              </ul>
+
+              <h4>Résultat</h4>
+              <p>La validation complète de l'infrastructure lors des démonstrations pratiques (interconnexion réussie des services, étanchéité des VLANs et plateforme web fonctionnelle) a marqué la réussite de ce projet. Ce travail mené en équipe de 3 étudiants m'a permis de développer une forte capacité de collaboration et de communication. La multiplicité des domaines abordés a renforcé ma polyvalence technique, alliant l'administration réseau, la gestion des systèmes, la téléphonie IP et la cybersécurité. Enfin, le déploiement de ces solutions sur du matériel physique dédié a considérablement accru ma rigueur opérationnelle et mon esprit d'analyse face aux problèmes complexes.</p>
+              <div class="thumbs">
+                <img src="Archi_reseau.png" alt="Schéma de l'architecture réseau Packet Tracer" />             
+              </div>
+              <p style="margin-top: 20px;">
+                <a href="CR-SAE-2.04.pdf" download="CR_SAE204_Arnau_ALBELDA_NICOLAU" class="btn">
+                  <i class="fa-solid fa-file-pdf" style="margin-right: 8px;"></i> Télécharger le CR du projet
+                </a>
+              </p>
+            </details>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-body">
+            <h3>SAE 2.03: Mettre en place une solution informatique pour l’entreprise</h3>
+            <p>Développement d'une application web full-stack pour répertorier, suivre et valider les compétences en cybersécurité.</p>
+            
+            <details class="more">
+              <summary>Voir le projet en entier</summary>
+              <h4>Objectif</h4>
+              <p>Dans ce projet, je devais développer une application web permettant de répertorier, suivre et valider les compétences en cybersécurité des utilisateurs.</p>
+              
+              <h4>Contexte</h4>
+              <p>Ce travail était individuel et guidé par les enseignants sous forme de volets, à réaliser lors de séances de TD, TP et en autonomie.<br>
+              Langages utilisés : <strong>PHP, MySQL, HTML/CSS, avec des requêtes préparées via PDO.</strong></p>
+              
+              <h4>Travail réalisé</h4>
+              <p>Le projet a débuté par une <strong>analyse des besoins fonctionnels</strong> afin de définir clairement les rôles des utilisateurs (étudiant, formateur et administrateur).<br>
+              Une <strong>modélisation de la base de données</strong> a ensuite été réalisée pour gérer les utilisateurs, compétences, formations, QCM et projets. Un <strong>système d’authentification sécurisé</strong> avec gestion des rôles a été mis en place afin de contrôler les accès aux différentes fonctionnalités.<br>
+              Les formateurs peuvent déposer des ressources pédagogiques, répondre aux questions des étudiants et consulter des statistiques de consultation.<br>
+              L’administrateur est chargé de la validation des comptes utilisateurs. Le projet intègre également la gestion de l’upload de fichiers et des <strong>tests fonctionnels</strong> garantissant le respect des droits d’accès.</p>
+              
+              <h4>Résultat</h4>
+              <p>J'ai accompli l'intégralité des volets du projet avec succès, ce qui m'a valu l'excellente note de <strong>19,5/20</strong> lors de l'évaluation finale. Ce travail individuel m'a permis de développer une forte autonomie et une grande rigueur organisationnelle. J'ai également aiguisé mon esprit d'analyse lors de la conception logicielle, tout en renforçant ma polyvalence technique sur des environnements full-stack. Enfin, la mise en place des accès et des tests a consolidé ma sensibilité à la sécurité du code.</p>
+              <p style="margin-top: 20px;">
+                <a href="cyberskills.zip" download="Projet_SAE23_Arnau_ALBELDA_NICOLAU" class="btn">
+                  <i class="fa-solid fa-file-zipper" style="margin-right: 8px;"></i> Télécharger le code du projet (ZIP)
+                </a>
+              </p>
+              <div class="thumbs"></div>
+            </details>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-body">
+            <h3>Portfolio</h3>
+            <p>Création de ce site web personnel en HTML et CSS pour présenter mon parcours et mes projets professionnels.</p>
+            
+            <details class="more">
+              <summary>Voir le projet en entier</summary>
+              <p><strong>Objectif :</strong> L’objectif est de créer une page web où je pourrais mettre des informations sur moi et sur mon parcours scolaire afin de pouvoir le présenter aux entreprises pour lesquelles je pourrais postuler.</p>
+              <p><strong>Contexte :</strong> Ce travail est à faire chez-soi et à l’IUT, c’est un travail personnel.</p>
+              <p><strong>Travail réalisé :</strong> Dans ce projet j’ai dû créer une page web à l’aide des langages de programmation HTML et CSS. D'abord j’ai créé la structure de la page à l’aide de HTML et ensuite j’ai fait le style de la page avec CSS.</p>
+              <p><strong>Résultat :</strong> Ce travail m'a aidé à développer ma capacité à être autonome dans les tâches que je dois accomplir car j'ai dû résoudre les problèmes que j'ai eus.</p>
+              <div class="thumbs">
+                <img src="c.png" alt="Extrait de code HTML/CSS du site" />
+                <img src="h.png" alt="Capture d’écran du site web" />
+              </div>
+              <p style="margin-top: 20px;">
+                <a href="portfolio.zip" download="Projet_SAE23_Arnau_ALBELDA_NICOLAU" class="btn">
+                  <i class="fa-solid fa-file-zipper" style="margin-right: 8px;"></i> Télécharger le code du projet (ZIP)
+                </a>
+              </p>
+            </details>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-body">
+            <h3>Configuration d’un point d’accès</h3>
+            <p>Mise en place et configuration réseau d'un point d'accès Wi-Fi pour permettre la connexion de postes clients.</p>
+            
+            <details class="more">
+              <summary>Voir le projet en entier</summary>
+              <p><strong>Objectif :</strong> Mettre en place un point d’accès pour qu’un autre PC puisse se connecter à celui-ci.</p>
+              <p><strong>Contexte :</strong> Ce travail est réalisé par groupes de 2, en TP encadré par un professeur.</p>
+              <p><strong>Travail réalisé :</strong> Pour réaliser ce travail, nous avons dû attribuer une adresse IP, un masque et une passerelle au point d’accès afin qu’il puisse être connecté au réseau.</p>
+              <p><strong>Résultat :</strong> Lors de ce travail, j’ai rencontré des difficultés à le réaliser. J’ai donc demandé de l’aide à mes camarades qui m’ont aidé à le finaliser, ce qui a permis de développer ma capacité à travailler en groupe.</p>
+              <div class="thumbs">
+                <img src="TP.png" alt="Capture de configuration du point d’accès" />
+              </div>
+               <p style="margin-top: 20px;">
+                <a href="TP4.WiFi.modeAP-ALBELDA.pdf" download="CR_SAE204_Arnau_ALBELDA_NICOLAU" class="btn">
+                  <i class="fa-solid fa-file-pdf" style="margin-right: 8px;"></i> Télécharger le CR du TP
+                </a>
+              </p>
+            </details>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-body">
+            <h3>Configuration call‑server</h3>
+            <p>Configuration d'un serveur d'appels et déploiement de téléphones IP pour établir des communications VoIP.</p>
+            
+            <details class="more">
+              <summary>Voir le projet en entier</summary>
+              <p><strong>Objectif :</strong> Dans ce TP, on devait configurer un call-server afin de pouvoir faire un appel entre deux téléphones IP.</p>
+              <p><strong>Contexte :</strong> Ce travail a été réalisé en groupe de 2, en TP encadré par un intervenant.</p>
+              <p><strong>Travail réalisé :</strong> Pour cela, nous avons attribué une adresse IP à chaque téléphone et ensuite nous l'avons enregistré sur le call-server, puis nous avons attribué dans le call-server un numéro de téléphone à chaque poste.</p>
+              <p><strong>Résultat :</strong> Dans ce TP, nous n'avons pas rencontré de réelle difficulté, mais j'ai pu améliorer mon travail en équipe grâce à la collaboration avec mon binôme.</p>
+              <div class="thumbs">
+                <img src="tel1.png" alt="Photographie du téléphone IP 1" />
+                <img src="tel2.png" alt="Photographie du téléphone IP 2" />
+              </div>
+            </details>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Divers -->
+    <section class="section" id="divers" aria-labelledby="titre-divers">
+      <div class="container">
+        <h2 id="titre-divers">Centres d'intérêt & Divers</h2>
+        <div class="grid cards">
+          <article class="card">
+            <img src="FOOT.jpg" alt="Match de football en cours" />
+            <div class="card-body">
+              <h3><i class="fa-regular fa-futbol" style="color: var(--accent); margin-right: 8px;"></i>Football (Compétition)</h3>
+              <p>Pratiqué en club depuis l'âge de 5 ans (en Espagne et en France). Actuellement joueur sénior au <strong>F.C. Aubierois</strong>.</p>
+              <p style="font-size: 0.9rem; color: var(--muted); margin-top: 10px; border-left: 3px solid var(--accent); padding-left: 10px;">
+                <em>Développe l'esprit d'équipe, la discipline et le sens de l'engagement à long terme.</em>
+              </p>
+              <div class="thumbs">
+                <img src="fca.jpeg" alt="Logo du F.C. Aubierois" />
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="course.jpg" alt="Personne en train de courir" />
+            <div class="card-body">
+              <h3><i class="fa-solid fa-person-running" style="color: var(--accent); margin-right: 8px;"></i>Course à pied & Plongée</h3>
+              <p>Pratique régulière de la course à pied en autonomie et passion pour la plongée sous-marine.</p>
+              <p style="font-size: 0.9rem; color: var(--muted); margin-top: 10px; border-left: 3px solid var(--accent); padding-left: 10px;">
+                <em>Renforce la persévérance, l'endurance mentale, ainsi que la maîtrise de soi et le calme.</em>
+              </p>
+              <div class="thumbs">
+                <img src="plonge.jpg" alt="Plongeur sous-marin" />
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CV -->
+    <section class="section" id="cv" aria-labelledby="titre-cv">
+      <div class="container">
+        <h2 id="titre-cv">CV</h2>
+        <div class="cv-embed">
+          <embed src="cv_Arnau_ALBELDA_NICOLAU.pdf" type="application/pdf" />
+        </div>
+        <p class="center">
+          <a href="cv_Arnau_ALBELDA_NICOLAU.pdf" download="CV_ALBELDA_NICOLAU_Arnau" class="btn">Télécharger le CV</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact" aria-labelledby="titre-contact">
+      <div class="container">
+        <h2 id="titre-contact">Contact</h2>
+        <ul class="contact-list">
+          <li><i class="fa-solid fa-envelope"></i> <a href="mailto:arnau.albelda_nicolau@uca.etu.fr">arnau.albelda_nicolau@uca.etu.fr</a></li>
+          <li><i class="fa-brands fa-linkedin"></i> <a href="https://www.linkedin.com/in/arnau-albelda-nicolau-83994224b/" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><i class="fa-solid fa-phone"></i>07 83 05 30 09</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <p>© <span id="year"></span> Arnau ALBELDA NICOLAU — Tous droits réservés.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Année dynamique
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Menu mobile
+    const btn = document.querySelector('.nav-toggle');
+    const menu = document.getElementById('menu');
+    btn.addEventListener('click', () => {
+      const expanded = btn.getAttribute('aria-expanded') === 'true';
+      btn.setAttribute('aria-expanded', String(!expanded));
+      menu.classList.toggle('open');
+    });
+  </script>
+</body>
+</html>
